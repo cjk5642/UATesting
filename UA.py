@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def main():
-    path = r'C:\\Users\\Connor\\Python Scripts\\UA Testing'
+    path = r'ENTER PATH'
 
     os.chdir(path)
 
