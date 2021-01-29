@@ -1,9 +1,8 @@
 import os
 import subprocess
 
-def main():
-    path = r'ENTER PATH'
-
+def main(path = 'ENTER PATH'):
+   
     os.chdir(path)
 
     cmd = ['curl','-A',0,'google.com']
